@@ -1,6 +1,13 @@
 .header {
     background-color: #fff;
     padding: 20px;
+    .header-icon{
+        padding: 10px;
+        border-radius: 50%;
+        color: #555;
+        cursor: pointer;
+        margin-left: 10px;
+    }
 
     i {
         cursor: pointer;
@@ -8,12 +15,7 @@
     .notfications-container {
         display: inline-block;
         margin-left: 20px;
-        .toggle-notifications {
-            padding: 10px;
-            border-radius: 50%;
-            color: #555;
-            cursor: pointer;
-        }
+      
         .dropdown-menu {
             min-width: 600px;
             margin: 9px 0px 0px -6px !important;
@@ -47,7 +49,7 @@
                             width: 45px;
                             line-height: 26px;
                             text-align: center;
-                            margin-right: 10px;
+                            margin-right: 10px ;
                         }
                     }
                 }

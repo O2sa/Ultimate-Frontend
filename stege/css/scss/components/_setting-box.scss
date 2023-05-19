@@ -1,4 +1,4 @@
-.setting-box{
+.setting-box {
     position: fixed;
     top: 0;
     right: 0;
@@ -8,7 +8,8 @@
     z-index: 1000;
     transition: 0.3s;
     padding: 20px;
-    .toggle-setting{
+
+    .toggle-setting {
         position: absolute;
         left: -48px;
         top: 100px;
@@ -18,9 +19,22 @@
         border-radius: 5px 0 0 5px;
         cursor: pointer;
     }
-    &.hide-setting{
+
+    &.hide-setting {
         right: -250px;
 
+    }
+
+    .color-options {
+        ul {
+            $colors: #27ae60, #2980b9, #c0392b,orange;
+
+            @for $i from 1 through length($colors) {
+                li:nth-child(#{$i}) {
+                    background-color: nth($colors, $i);
+                }
+            }
+        }
     }
 
 }

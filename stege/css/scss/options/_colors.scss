@@ -1,12 +1,13 @@
-$thems:(
-    grenn-theme: (color: #27ae60),
+$thems:(grenn-theme: (color: #27ae60),
     blue-theme: (color: #2980b9),
     red-theme: (color: #c0392b),
 );
-@each $theme, $map in $thems{
-    .#{theme}{
-        .classname{
-            color: map-get($map, color );
+
+@each $theme,
+$map in $thems {
+    .#{theme} {
+        .classname {
+            color: map-get($map, color);
         }
     }
 }

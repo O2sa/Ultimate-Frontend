@@ -9,24 +9,42 @@ $thems:(green-theme: (color: #27ae60),
 @each $theme,
 $map in $thems {
     .#{$theme} {
-        $color:map-get($map, color);
+        $color: map-get($map, color);
+
         .page .page-head .page-title {
             color: $color;
         }
-        .page .sidebar .links-area .child-links a:hover:before{
-background-color: $color;
+
+        .page .sidebar .links-area .child-links a:hover:before {
+            background-color: $color;
         }
-        .header .toggle-sidebar:hover{
-            color:  $color;
+
+        .header .toggle-sidebar:hover {
+            color: $color;
         }
-            .page .sidebar .links-area li .active::before{
-            border-color:  $color;
+
+        .page .sidebar .links-area li .active::before {
+            border-color: $color;
 
         }
-        .header .usermenu-container .user-info h3{
-        color: $color;
+
+        .header .usermenu-container .user-info h3 {
+            color: $color;
         }
-        .header-icon:hover{
+
+        .header-icon:hover {
+            color: $color;
+        }
+
+        .header .notfications-container .dropdown-menu .noti-content ul li i {
+            color: $color;
+        }
+
+       .header .notfications-container .dropdown-menu .noti-header span {
+            color: $color;
+        }
+
+        .header .usermenu-container .username .user:hover {
             color: $color;
         }
     }

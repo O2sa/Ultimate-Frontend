@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit-no">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="dist/css/main.css">
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&amp;family=Roboto&amp;family=Source+Sans+Pro&amp;family=Ubuntu&amp;display=swap">
+  </head>
+  <body> 
+    <div class="page home-page">
+      <div class="setting-box hide-setting">
+        <div class="toggle-setting"><i class="fa-regular fa-envelope fa-xl"></i></div>
+        <div class="setting-content">
+          <div class="option-box color-options text-center">
+            <h4 class="option-title">Color Options</h4>
+            <ul class="list-unstyled">
+              <li data-theme="green-theme"></li>
+              <li data-theme="blue-theme"></li>
+              <li data-theme="red-theme"></li>
+              <li data-theme="orange-theme"></li>
+              <li data-theme="orange-theme"></li>
+              <li data-theme="purple-theme"></li>
+              <li data-theme="black-theme"></li>
+            </ul>
+          </div>
+          <div class="option-box text-center font-options">
+            <h4 class="option-title">Font Options</h4>
+            <select class="form-control text-center">
+              <option value="open">open Font</option>
+              <option value="ubuntu">ubuntu Font</option>
+              <option value="roboto">roboto Font</option>
+              <option value="source">source Font</option>
+            </select>
+          </div>
+          <div class="option-box text-center">
+            <h4 class="option-title">Backgrounds Options</h4>
+          </div>
+        </div>
+      </div>
+      <div class="sidebar">
+        <div class="logo-area text-centre">Osama </div>
+        <ul class="links-area list-unstyled"> 
+          <li><a class="active" href="index.html">HomePage </a></li>
+          <li> <a class="toggle-submenu" href="#">
+               Forms <i class="fa fa-angle-right toggle-icon"></i></a>
+            <ul class="child-links list-unstyled"> 
+              <li><a href="#">Input </a></li>
+              <li><a href="#">TextArea </a></li>
+              <li><a href="#">Checkbox </a></li>
+              <li><a href="#">Radio </a></li>
+            </ul>
+          </li>
+          <li> <a class="toggle-submenu" href="#">
+               MIsc <i class="fa fa-angle-right toggle-icon"></i></a>
+            <ul class="child-links list-unstyled"> 
+              <li><a href="#">Loading </a></li>
+              <li><a href="#">Breadcrumbs   </a></li>
+            </ul>
+          </li>
+          <li><a href="dist/charts.html">Charts </a></li>
+        </ul>
+      </div>
+      <div class="content-area"> 
+        <div class="header"> <i class="fa fa-exchange ga-lg toggle-sidebar header-icon"></i>
+          <div class="dropdown notfications-container"><i class="fa fa-bell fa-lg header-icon toggle-notifications" id="notifications" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
+            <div class="dropdown-menu" aria-labelledby="notifications">
+              <div class="noti-header">
+                 Notifications <span>50</span></div>
+              <div class="noti-content"> 
+                <ul class="list-unstyled"> 
+                  <li> <i class="fa-regular fa-envelope fa-xl"></i>You Got Email From Sender    </li>
+                  <li> <i class="fa-solid fa-money-bill fa-xl"></i>You Got Email From Sender    </li>
+                  <li> <i class="fa-solid fa-thumbs-up fa-xl"></i>You Got Email From Sender    </li>
+                  <li> <i class="fa-solid fa-money-bill fa-xl"></i>You Got Email From Sender    </li>
+                  <li> <i class="fa-solid fa-money-bill fa-xl"></i>You Got Email From Sender     </li>
+                </ul>
+              </div>
+              <div class="noti-footer text-center"><a href="#">View All Notifications </a></div>
+            </div>
+          </div><i class="fa fa-expand fa-lg toggle-fullscreen header-icon"></i>
+          <div class="dropdown usermenu-container">
+            <div class="username" id="usermenu" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <img class="avatar rounded-circle" src="avata.webp" alt="User Avatar"><span class="user">Osama Alsairi</span><i class="fa-solid fa-angles-down fa-lg"></i></div>
+            <div class="dropdown-menu" aria-labelledby="usermenu">
+              <div class="user-info"> 
+                <h3>Osama Alsairi </h3>
+                <p>Premium Member </p>
+              </div>
+              <hr>
+              <ul class="activities-list list-unstyled"> 
+                <li>Added a Comment on Post "Sport And Life"</li>
+                <li>Created a The Plan of chess Project </li>
+                <li>draw a chart in "Data Secince"</li>
+                <li>Add a new data to git hub </li>
+              </ul>
+              <hr>
+              <div class="row user-links">
+                <div class="col"> 
+                  <div class="link-box"> <i class="fa-regular fa-envelope fa-xl"></i><span>Setting  </span></div>
+                </div>
+                <div class="col"> 
+                  <div class="link-box"> <i class="fa-regular fa-envelope fa-xl"></i><span>Setting  </span></div>
+                </div>
+                <div class="col"> 
+                  <div class="link-box"> <i class="fa-regular fa-envelope fa-xl"></i><span>Setting  </span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="content">
+            <div class="page-head">
+              <h1 class="page-title">Homepage</h1>
+              <p class="page-description lead">This is a Description of Homepage</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="dist/js/jquery-3.6.3.min.js"> </script>
+    <script src="dist/js/main.js"></script>
+    <script src="dist/js/bootstrap.bundle.min.js"></script>
+    <script src="http://localhost:35729/livereload.js"></script>
+  </body>
+</html>

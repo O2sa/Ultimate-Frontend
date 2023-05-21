@@ -2,7 +2,22 @@
     box-sizing: border-box;
 }
 body{
-  font-family: 'Open Sans', sans-serif !important;
+  font-family: 'Open Sans', sans-serif ;
+  &.ubuntu{
+    font-family: 'Ubuntu', sans-serif;
+  }
+  &.roboto{
+    font-family: 'Roboto', sans-serif;
+
+  }
+  &.open{
+    font-family: 'Open Sans', sans-serif;
+
+  }
+  &.source{
+    font-family: 'Source Sans Pro', sans-serif;
+
+  }
 }
 .page{
     min-height: 100vh;

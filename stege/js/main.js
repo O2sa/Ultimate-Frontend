@@ -40,8 +40,7 @@ $(function () {
     console.log(fontClasses)
   });
   $(".font-options select").on("change", function(){
-    $("body").removeClass(fontClasses.join(" "))
-    .addClass($(this).find("option:selected").val());
+    $("body").removeClass(fontClasses.join(" ")).addClass($(this).find("option:selected").val());
   });
 });
 

@@ -1,7 +1,7 @@
 .sidebar
     .logo-area.text-centre Osama 
     ul.links-area.list-unstyled 
-        li: a(href="#") HomePage 
+        li: a(href="index.html" class= pageTitle === 'Homepage' ? 'active' : '') HomePage 
         li 
             a.toggle-submenu(href="#") 
                 | Forms 
@@ -18,5 +18,5 @@
             ul.child-links.list-unstyled 
                 li: a(href="#") Loading 
                 li: a(href="#") Breadcrumbs   
-           
+        li: a(href="charts.html" class= pageTitle === 'Charts' ? 'active' : '') Charts 
                         

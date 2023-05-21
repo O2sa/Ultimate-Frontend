@@ -19,5 +19,15 @@ background-color: $color;
         .header .toggle-sidebar:hover{
             color:  $color;
         }
+            .page .sidebar .links-area li .active::before{
+            border-color:  $color;
+
+        }
+        .header .usermenu-container .user-info h3{
+        color: $color;
+        }
+        .header-icon:hover{
+            color: $color;
+        }
     }
 }

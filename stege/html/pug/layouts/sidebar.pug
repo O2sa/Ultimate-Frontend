@@ -1,1 +1,22 @@
-.sidebar Sidebar
+.sidebar
+    .logo-area.text-centre Osama 
+    ul.links-area.list-unstyled 
+        li: a(href="index.html" class= pageTitle === 'Homepage' ? 'active' : '') HomePage 
+        li 
+            a.toggle-submenu(href="#") 
+                | Forms 
+                i.fa.fa-angle-right.toggle-icon
+            ul.child-links.list-unstyled 
+                li: a(href="#") Input 
+                li: a(href="#") TextArea 
+                li: a(href="#") Checkbox 
+                li: a(href="#") Radio 
+        li 
+            a.toggle-submenu(href="#") 
+               | MIsc 
+               i.fa.fa-angle-right.toggle-icon
+            ul.child-links.list-unstyled 
+                li: a(href="#") Loading 
+                li: a(href="#") Breadcrumbs   
+        li: a(href="charts.html" class= pageTitle === 'Charts' ? 'active' : '') Charts 
+                        

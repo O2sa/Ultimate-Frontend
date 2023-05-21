@@ -2,7 +2,22 @@
     box-sizing: border-box;
 }
 body{
-  
+  font-family: 'Open Sans', sans-serif ;
+  &.ubuntu{
+    font-family: 'Ubuntu', sans-serif;
+  }
+  &.roboto{
+    font-family: 'Roboto', sans-serif;
+
+  }
+  &.open{
+    font-family: 'Open Sans', sans-serif;
+
+  }
+  &.source{
+    font-family: 'Source Sans Pro', sans-serif;
+
+  }
 }
 .page{
     min-height: 100vh;
@@ -15,6 +30,18 @@ body{
         float: right;
         &.no-sidebar{
             width: 100%;
+        }
+    }
+    .page-head{
+        margin-top: 20px;
+        padding: 20px;
+        .page-title{
+            font-weight: bold;
+            color: #27ae60;
+
+        }
+        .page-description{
+             
         }
     }
 }
